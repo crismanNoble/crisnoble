@@ -1,0 +1,118 @@
+body {
+	background: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 26px;
+	margin-top: 10px;
+}
+
+#logo {
+    margin-top: 10px;
+    background-image: url('http://crisnoble.com/images/penrose.png');
+	position: fixed;
+}
+
+
+#logo1 {
+    margin-top: 10px;
+height: 100px;
+width:100px;
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png');
+}
+
+#logo:hover{
+    background-image: url('http://crisnoble.com/images/penrose2.png');
+}
+
+.headerB {
+    height:20px;
+}
+
+.headerA {
+    height: 40px;
+}
+.contact {
+	margin-top: 20px;
+    height: 20px;
+	width: 20px;
+}
+
+.icon {
+    height: 40px;
+	width: 40px;
+    padding-right: 10px;
+}
+
+
+.blackandwhite {
+    width: 280px;
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(5, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 2px 2px rgba(5, 0, 0, .25);
+	box-shadow: 0px 0px 2px 2px rgba(5, 0, 0, .25);
+}
+
+.lefty {
+    /*padding-left:10px;*/
+    height: 30px;
+	padding-right: 0px;
+	margin-left: -10px;
+	margin-top: 0px;
+}
+
+
+
+.right {
+
+}
+
+.navigation {
+    font-family: 'Vollkorn', serif;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.navigation:hover {
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 10px;
+    font-family: 'Vollkorn', serif;
+}
+
+.sectionTitle {
+    margin-top:20px;
+}
+
+.bigger {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.huge {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Vollkorn', serif;
+}
+
+.learned {
+    font-style: italic;
+}
+
+.about {
+    padding-bottom: 20px;
+}
+
+.randomRoll {
+
+}

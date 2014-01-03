@@ -1,0 +1,176 @@
+.columnWidth {
+	background-color: #f5f5f4;
+	width: 800px;
+	margin: 0px auto;
+}
+
+html, body {
+	background: #013962;
+	color: #222;
+	font-family: Futura, 'Century Gothic', AppleGothic, sans-serif;
+body - Futura, 'Century Gothic', AppleGothic, sans-serif
+}
+
+h2 {
+	margin-bottom: 5px;
+	padding-top: 15px;
+	font-size: 22px;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "magistral-web-compressed";
+}
+h3 {
+	display: inline;
+}
+img {
+	max-width: 100%;
+}
+p {
+	padding: 5px 0;
+	max-width: 650px;
+}
+footer {
+	padding: 10px 0;	
+}
+footer ul{
+	padding: 20px 0;
+	margin-right: 80px;
+}
+footer ul li:nth-of-type(1) {
+	width: 100%;
+	display: block;
+}
+article, header, footer {
+	padding-left: 80px;
+}
+
+article:nth-of-type(n) {
+	padding-bottom: 20px;
+}
+.logo {
+	margin-left: -40px;
+	margin: 10px 0 10px -40px;
+}
+
+a, a:visited, a:active {
+	color: #006A7E;
+	text-decoration: none;
+}
+nav {
+	text-align: right;
+	margin-right: 60px;
+	padding-bottom: 40px;
+}
+
+.navigationLinks {
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "magistral-web-compressed";
+	border-bottom: 3px solid transparent;
+}
+
+.navigationLinks:hover {
+	border-bottom: 2px solid #006A7E;
+}
+
+a.darkBlue, .darkBlue {
+	color:  #013962;
+}
+
+a.darkBlue:hover {
+	border-color: #013962;
+}
+
+a.blue, .blue {
+	color: #006A7E;
+}
+
+a.blue:hover {
+	border-color: #006A7E;	
+}
+
+a.green, .green {
+	color: #02A88E;
+}
+
+a.green:hover {
+	border-color: #02A88E;
+}
+
+a.lightGreen, .lightGreen {
+	color: #5BDFA7;
+}
+
+a.lightGreen:hover {
+	border-color: #5BDFA7;
+}
+p, footer {
+	font-size: 14px;
+}
+.project {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 6px 0 #aaa;
+}
+.project p, .project img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.project p {
+	background: #333333;
+	background: rgba(0,0,0,.8);
+	color: #ddd;
+	padding: 0;
+	font-weight: 400;
+	font-style: normal;
+	font-family: sans-serif;
+}
+.project span {
+	display: block;
+	width: 90%;
+	padding: 0 5%;
+	text-align: center;
+}
+.projectTitle {
+	margin-top: 20px;
+	font-family: "magistral-web-compressed";
+	font-size: 1.2em;
+}
+.projectSkills {
+	margin-top: 10px;
+	font-size: .8em;
+}
+.projectTitle a {
+	color: white;
+	font-weight: 100;
+}
+.projectLink {
+	margin-top: 10px;
+}
+.projectLink a {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.footerImg {
+	max-height: 50px;
+	opacity: .85;
+	margin-bottom: 20px;
+}
+
+a.tiny {
+	font-size: 10px;
+	font-weight: normal;
+	color: #222;
+}

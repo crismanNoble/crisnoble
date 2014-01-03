@@ -1,0 +1,41 @@
+humans.txt
+
+The first incarnation of this site was thrown together in about 2 evenings just so I had something people could go to during the AIGA speed dating event on 1/25/2012. Made with care by Cris Noble (@crisnoble) with some help from Angela Jones (@designbyange). 
+
+Giving credit where it is due:
+
+Skittle Color Pallette:
+http://www.colourlovers.com/palette/1338021/Original_Skittles
+
+All Icons come from the Noun Project
+Webfont used is Vollkorn from Google Webfonts
+Librarys: jquery
+Frameworks: 960.gs
+
+Weabapps used in production and prototyping of this site:
+jsfiddle.net
+asana
+dropbox
+placehold.it
+
+The first person who reads this and shoots me an email (cris@crisnoble.com) which says "tacos" as the subject will get an exclusive prize.
+
+Here is a list of the icons from the noun project in use
+
+book http://thenounproject.com/noun/book/#icon-No1009
+brain http://thenounproject.com/noun/brain/#icon-No685
+computer http://thenounproject.com/noun/computer/#icon-No115
+duck http://thenounproject.com/noun/duck/#icon-No498
+music http://thenounproject.com/noun/music/#icon-No928
+tree http://thenounproject.com/noun/tree/#icon-No173
+beer http://thenounproject.com/noun/beer/#icon-No811
+beaker http://thenounproject.com/noun/beaker/#icon-No325
+spray-paint http://thenounproject.com/noun/spray-paint/#icon-No915
+diamond http://thenounproject.com/noun/diamond/#icon-No315
+protest http://thenounproject.com/noun/protest/#icon-No758
+source-code http://thenounproject.com/noun/source-code/#icon-No1171
+windmill http://thenounproject.com/noun/windmill/#icon-No262
+mine http://thenounproject.com/noun/mine/#icon-No543
+line-graph http://thenounproject.com/noun/line-graph/#icon-No815 
+running http://thenounproject.com/noun/running/#icon-No246
+speaker http://thenounproject.com/noun/speaker/#icon-No1327
