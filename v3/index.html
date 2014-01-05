@@ -20,12 +20,40 @@
 	<img src="images/crisnoble.com.jpg" class="image logo" alt="crisnoble.com logo"/>
 	<ul class="links">
 		<li class="link">
-			<a href="#contact" class="destination">Contact</a>
+			<a href="#about" id="aboutLink" class="destination internal">About</a>
 		</li>
 		<li class="link">
-			<a href="#projects" class="destination">Projects</a>
+			<a href="#contact" id="contactLink" class="destination internals">Contact</a>
+		</li>
+		<li class="link">
+			<a href="#projects" id="projectsLink" class="destination external">Projects</a>
 		</li>
 	</ul>
-	<img src="images/penrose.png" class="image penrose"/>
+
+	<div id="about" class="hidden">
+		Front-end developer intrested in quantified self and data vizualization. Runner. Reader.
+
+		See CV for more info.
+	</div>
+
+	<div id="contact" class="hidden">
+		<ul>
+			<li>email:</li>
+			<li>phone:</li>
+			<li>github:</li>
+			<li>twitter:</li>
+			<li>linkedin:</li>
+		</ul>
+		<form id="contactForm">
+			<label class="contactLabel">email</label>
+			<input type="text" class="textInput">
+			<label class="contactLabel">message</label>
+			<textarea class="textInput"></textarea>
+		</form>
+	</div>
+
+<script src="scripts/lib/zepto.min.js"></script>
+<script src="scripts/app.js"></script>
+
 </body>
 </html>
