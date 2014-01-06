@@ -9,6 +9,13 @@ html {
 	background-repeat: no-repeat;
 	background-position: 50% 95%;
 	min-height: 100%;
+
+	
+
+}
+
+body {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
 .headerBoundary {
@@ -65,6 +72,10 @@ html {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	@media (max-width:480px){
+		text-align: left;
+		font-size: .8em;
+	}
 }
 
 .link {
@@ -110,7 +121,7 @@ html {
 	opacity: 1;
 }
 
-.destination:hover {
+.destination:hover, .active {
 	border-color: #006A7E;
 }
 
@@ -121,15 +132,27 @@ html {
 .hidden {
 	height: 0;
 	opacity: 0;
+	display: none;
+	transition: opacity 0.5s;
 }
 .shown { 
 	//toggle shown class based on if the link is clicked
+	transition: opacity 0.5s;
 	opacity: 1;
 }
+.noList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 #about, #contact {
-	max-width: 35em;
+	max-width: 34em;
 	margin: 0 auto;
 	transition: opacity 0.5s;
+	font-size: 14px;
+	margin-top: 20px;
+	padding: 0 1em;
 }
 
 #contactForm {
