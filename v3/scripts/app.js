@@ -22,8 +22,14 @@ $('#contactLink').on('click',function(e){
 });
 
 $('#projectsLink').on('click',function(e){
-	e.preventDefault();
+	// e.preventDefault();
 	console.log('you clicked on projects');
+});
+
+$('.headerBoundary').on('click',function(e){
+	// e.preventDefault();
+	console.log('you clicked on the header');
+	$(this).toggleClass('moar');
 });
 
 $('#aboutLink').click();
