@@ -317,3 +317,26 @@ h2 {
 .centerText {
   text-align: center;
 }
+.btn {
+  border-top: 1px solid #ffffff;
+  background: #cfcfcf;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  padding: 10.5px 21px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  /*   color: #ffffff;*/
+
+  font-size: 15px;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #cfcfcf;
+  color: #666;
+}
+.btn:active {
+  border-top-color: #a1a1a1;
+  background: #a1a1a1;
+}

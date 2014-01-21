@@ -52,7 +52,9 @@ function locationHashChanged() {
 }
 
 document.addEventListener('DOMContentLoaded',function(){
-	console.log('dom is ready')
+	_tally.tick('pageView','version 3.0');
+
+	//console.log('dom is ready');
 	var hashish = window.location.hash;
 	//console.log('you had a hash on page load, '+hashish);
 	if(hashish == '#about' || hashish == '#contact' || hashish == '#projects'){
