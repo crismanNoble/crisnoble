@@ -262,3 +262,26 @@ h2 {
   color: #960707;
   float: right;
 }
+.ss_thanks a {
+  display: block;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  color: #006A7E;
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  margin: 0 10px 2px;
+  padding-left: 1px;
+  transition: all 0.5s;
+  position: relative;
+  color: #551A8B;
+  font-size: 14px;
+  font-style: normal;
+  margin: 0;
+  border-bottom: 1px dashed #551A8B;
+}
+@media (max-width: 480px) {
+  .ss_thanks a {
+    margin: 0 5px 2px;
+  }
+}
