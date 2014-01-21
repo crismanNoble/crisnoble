@@ -217,7 +217,8 @@ body {
   padding: 0;
 }
 #about,
-#contact {
+#contact,
+#fourohfour {
   max-width: 34em;
   margin: 0 auto;
   transition: opacity 0.5s;
@@ -284,4 +285,35 @@ h2 {
   .ss_thanks a {
     margin: 0 5px 2px;
   }
+}
+.takeMeHome {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  color: #006A7E;
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  margin: 0 10px 2px;
+  padding-left: 1px;
+  transition: all 0.5s;
+  position: relative;
+  color: #551A8B;
+  font-size: 14px;
+  font-style: normal;
+  margin: 0;
+  border-bottom: 1px dashed #551A8B;
+  margin-top: 20px;
+  display: inline-block;
+}
+@media (max-width: 480px) {
+  .takeMeHome {
+    margin: 0 5px 2px;
+  }
+}
+.author {
+  font-style: italic;
+  margin-left: 2em;
+}
+.centerText {
+  text-align: center;
 }
