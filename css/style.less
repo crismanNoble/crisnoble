@@ -9,9 +9,6 @@ html {
 	background-repeat: no-repeat;
 	background-position: 50% 95%;*/
 	min-height: 100%;
-
-	
-
 }
 
 body {
@@ -224,6 +221,7 @@ body {
 }
 .shown { 
 	//toggle shown class based on if the link is clicked
+
 	transition: opacity 0.5s;
 	opacity: 1;
 }
@@ -242,13 +240,45 @@ body {
 	padding: 0 1em;
 }
 
-#contactForm {
+.contactForm {
 	text-align: left;
+	margin-bottom: 30px;
+	max-width: 320px;
 }
 .contactLabel {
 	display: block;
 }
 
+.contactLegend {
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin: .83em 0;
+}
+
+.btn {
+	width: 120px;
+	margin-top: 15px;
+	display: block;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin: .83em 0;
+}
+
 .textInput {
 	display: block;
+	width: 100%;
+	max-width: 320px;
+	box-sizing: border-box;
+}
+
+.ss_error_label {
+	font-size: .83em;
+	margin-left: 10px;
+	font-style: italic;
+	color: #960707;
+	float: right;
 }
