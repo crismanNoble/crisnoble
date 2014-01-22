@@ -78,7 +78,7 @@ $('.external').on('click',function(e){
 	_tally.click(e,'External Link Click: ');
 });
 
-$('.external').on('click',function(e){
+$('#ss_submit').on('click',function(e){
 	_tally.tick('click','submit form');
 });
 
