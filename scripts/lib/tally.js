@@ -37,8 +37,9 @@ _tally.tick = function(action, detail){
 }
 
 _tally.click = function(e,string){
-//this should be used to capture links going externally.
+//this can be used to capture links going externally.
 	e.preventDefault();
+
 	var dest = e.currentTarget.href;
 	var text = e.currentTarget.innerText;
 	_tally.tock();
