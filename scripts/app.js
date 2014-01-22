@@ -1,5 +1,6 @@
 $('#aboutLink').on('click',function(e){
 	e.preventDefault();
+	_tally.tick('click','aboutLink');
 	//console.log('you clicked on about');
 
 	$('#about').removeClass('hidden');
@@ -13,6 +14,7 @@ $('#aboutLink').on('click',function(e){
 
 $('#contactLink').on('click',function(e){
 	e.preventDefault();
+	_tally.tick('click','contactLink');
 	//console.log('you clicked on contact');
 
 	$('#about').addClass('hidden');
@@ -26,6 +28,8 @@ $('#contactLink').on('click',function(e){
 });
 
 $('#projectsLink').on('click',function(e){
+
+	
 	// e.preventDefault();
 	//console.log('you clicked on projects');
 	window.location.hash = '#projects';
@@ -65,5 +69,16 @@ $(document).ready(function(){
 	}
 });
 
+//tally events
+$('.headerLink').on('click',function(e){
+	_tally.click(e,'Header Link Click: ');
+});
 
+$('.external').on('click',function(e){
+	_tally.click(e,'External Link Click: ');
+});
+
+$('.external').on('click',function(e){
+	_tally.tick('click','submit form');
+});
 
