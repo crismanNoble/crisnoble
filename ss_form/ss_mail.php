@@ -15,6 +15,9 @@ if(empty($message)){
 	$message = $_GET['message'];	
 }
 
+$ua = $_SERVER['HTTP_USER_AGENT'];
+$ip = $_SERVER['SERVER_ADDR'];
+
 $to = "jcnoble2@gmail.com";
 
 //subject
@@ -24,7 +27,8 @@ $subject = $name. ' just filled in the crisnoble.com form.';
 $body = 'Someone from your stupid simple form said:<br/><br/>';
 $body .='name: '.$name.'<br/>';
 $body .='email: '.$email.'<br/>';
-$body .='message: '.$message;
+$body .='message: '.$message.'<br/><br/><br/>';
+$body .='debug:'.$ip.' | '.$ua;
 
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
